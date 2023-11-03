@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Morse Code to Text Converter</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 20px;
+        }
+
+        h1 {
+            color: #333;
+        }
+
+        #container {
+            width: 80%;
+            margin: 0 auto;
+            text-align: left;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            box-shadow: 0px 0px 10px #ccc;
+            background-color: #f9f9f9;
+        }
+
+        label {
+            font-weight: bold;
+        }
+
+        #input {
+            width: 100%;
+            height: 100px;
+        }
+
+        #output {
+            width: 100%;
+            height: 100px;
+        }
+
+        #translateButton {
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Morse Code to Text Converter</h1>
+    <div id="container">
+        <!-- Your provided text -->
+        <p>Morse code was originally developed for use in telegraphy but it remains in use today by amateur radio operators, aviators, and other such kinds of groups. Learning Morse code is a useful skill but not everyone has the time or inclination to do so. Fortunately, there are tools available to help translate Morse code into English text, such as <a href="https://www.morsetranslator.com/morse-code-to-text/" target="_blank">MorseTranslator</a>.</p>
+        
+        <p>Morse Code to Text converter tool is an online tool, that allows you to translate Morse code into readable English text. This converter tool is very easy to use. To use this tool, simply input the Morse code into the provided text box. The tool will instantly decode the Morse code and display the corresponding text in the output box.</p>
+        
+        <p>One of the benefits of using the Morse Code decoder is that you do not need to memorize the Morse Code alphabet. And this Morse Code decoder tool accurately translates any Morse code in the text.</p>
+        
+        <p>Overall, the Morse code to English converter is a helpful tool for anyone, who needs to translate Morse code messages into readable text. Whether you are a radio operator, a historian, or someone interested in learning Morse code. The Morse Code decoder can make the process of decoding Morse code much easier and more efficient. The Morse Code to English text converter is a must-have tool for anyone who works with Morse code on a regular basis.</p>
+        
+        <label for="input">Enter Morse Code:</label>
+        <textarea id="input" rows="4" placeholder="Enter Morse code here"></textarea>
+        
+        <label for="output">Decoded Text:</label>
+        <textarea id="output" rows="4" readonly></textarea>
+        
+        <button id="translateButton" onclick="translateMorseCode()">Translate</button>
+    </div>
+
+    <script>
+        function translateMorseCode() {
+            // JavaScript code to translate Morse code to text here
+            // You can implement your translation logic using JavaScript
+            // Update the 'output' textarea with the translated text
+        }
+    </script>
+</body>
+</html>
